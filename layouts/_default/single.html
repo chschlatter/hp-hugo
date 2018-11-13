@@ -1,0 +1,13 @@
+{{ define "header" }}
+  <header class="site-header" role="banner">
+    <div class="wrapper">
+      <a class="site-title" rel="author" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </div>
+  </header>
+{{ end }}
+{{ define "main" }}
+  <div class="wrapper">
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+  </div>
+{{ end }}
