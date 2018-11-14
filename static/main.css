@@ -50,11 +50,18 @@ img {
 /**
  * Figures
  */
+figure.right {
+  float: right;
+  padding-left: 15px;
+}
+
 figure > img {
   display: block; }
 
 figcaption {
   font-size: 14px; }
+
+
 
 /**
  * Lists
