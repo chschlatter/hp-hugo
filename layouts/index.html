@@ -20,7 +20,7 @@
   <ul style="list-style-type: none; padding: 0; margin: 0;">
     {{ range .Pages }}
       <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a> ({{ .Date.Format "2006-01" }})
+        <a href="{{ .Permalink }}">{{if .Draft}}DRAFT: {{end}}{{ .Title }}</a> ({{ .Date.Format "2006-01" }})
       </li>
     {{ end }}
   </ul>
