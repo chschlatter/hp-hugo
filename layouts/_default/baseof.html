@@ -13,6 +13,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   {{ template "_internal/opengraph.html" . }}
+  <meta name="author" content="{{ .Site.Params.author }}">
 
   <link rel="stylesheet" href="{{ "main.css" | relURL }}">
 </head>

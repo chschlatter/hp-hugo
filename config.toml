@@ -2,4 +2,9 @@ baseURL = "https://www.schlatter.net/"
 languageCode = "en-us"
 title = "schlatter.net"
 
-[blackfriday] hrefTargetBlank = true
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  author = "Christian Schlatter"
