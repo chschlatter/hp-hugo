@@ -3,7 +3,7 @@ title: "Will blockchain deliver for the logistics industry?"
 date: 2018-11-10
 description: A critical look on the value add of blockchain for the logistics industry.
 images:
-- TradeLens_graphic.jpeg
+- /media/TradeLens_graphic.jpeg
 draft: false
 ---
 
