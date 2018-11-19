@@ -7,6 +7,30 @@ images:
 draft: true
 ---
 
+- Digitalisierung - Gefahren - Public Safety
+  - Verletzlichkeit unserer Gesellschaft
+- Drahtlose Breitbandkommunikation für Armee und BORS
+  - Nutzen, Bedeutung, Verwendung kommerz. Provider + Gefahren
+  - Vorteile von COTS Ökosystem (LTE, 5G)
+- Lösungsansätze für mobile Sicherheitskommunikation
+  - GOGO, COCO, MNO
+  - 5G (spektrale Effizienz vs zusätzl. Spektrum, network slicing, cloud-core)
+  - Schweiz: SDVN / Fhr N CH, MSK, TK A, blunet, Swisscom Public Safety LTE
+- Vergabe 700 MHz Band
+  - digitale Dividende
+  - Entscheid BAKOM: ECC 218 Option B
+    - Abstimmung BABS, FUB, BAKOM (?)
+  - Interessen Provider
+  - Ausland
+    - USA, CAN, Korea: 20 MHz
+    - Modell "Frankreich"
+- Wie weiter?
+  - MSK, band 68
+  - TK A?
+
+
+
+
 - 700 MHz Spektrum - Historie + Ausblick (5G ...)
  - digitale Dividende
  - europ. Harmonisierung 700 MHz (LTE Band 28 (from Asia-Pacific) - future: whole Europe)
