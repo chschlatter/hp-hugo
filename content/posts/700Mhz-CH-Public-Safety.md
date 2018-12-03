@@ -24,7 +24,7 @@ Stimmt diese Güterabwägung? Ist uns ...
 
 Getrieben durch die Versprechungen
 
-
+bla bla bla
 
 
 Anfang 2019 vergibt die Eigenössische Kommunikationskommission ComCom [neue Mobilfunkfrequenzen][ComCom], um in der Schweiz die Einführung neuer 5G Mobilnetze zu ermöglichen. Dabei wird auch das 700-Megahertz-Band versteigert, welches durch die Migration von DVB-T-Sendern (für das digitale terrestrische Fernsehen) in das darunterliegende Frequenzband frei wurde.
