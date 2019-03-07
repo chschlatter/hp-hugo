@@ -2,6 +2,7 @@ baseURL = "https://www.schlatter.net/"
 languageCode = "en-us"
 title = "schlatter.net"
 
+theme = "minicss"
 
 [blackfriday]
   hrefTargetBlank = true
