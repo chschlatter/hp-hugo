@@ -4,6 +4,8 @@ title = "schlatter.net"
 
 theme = "bulma-blog"
 
+enableGitInfo = true
+
 [blackfriday]
   hrefTargetBlank = true
 
