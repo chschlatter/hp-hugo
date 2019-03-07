@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <p>
+    This is the home page of the Schlatter family from Untersiggenthal, Switzerland.
+    Active since 2000, it is a playground for trying out new web
+    technologies and hosting our media galleries.
+  </p>
+  <p>
+    A snapshot of the 2011 version including stories and photos from our US stay
+    can be found at <a href="http://05-11.schlatter.net/">05-11</a>.
+  </p>
+  <p>
+    Monika: <a href="http://relatris.ch/uber-mich/">Relatris.ch</a>,
+    <a href="https://www.linkedin.com/in/relatris/">Linkedin profile</a><br>
+    Christian: <a href="https://www.linkedin.com/in/christianschlatter/">Linkedin profile</a>,
+    <a href="https://www.xing.com/profile/Christian_Schlatter2">Xing profile</a>
+  </p>
+
+  <ul style="list-style-type: none; padding: 0; margin: 0;">
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .Permalink }}">{{if .Draft}}DRAFT: {{end}}{{ .Title }}</a> ({{ .Date.Format "2006-01" }})
+      </li>
+    {{ end }}
+  </ul>
+
+
+{{ end }}

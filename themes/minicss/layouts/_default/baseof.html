@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ .Site.Title }}</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  {{ template "_internal/opengraph.html" . }}
+  <meta name="author" content="{{ .Site.Params.author }}">
+
+  <link rel="stylesheet" href="{{ "main.css" | relURL }}">
+</head>
+
+<body>
+  {{ block "header" . }}
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      </div>
+    </header>
+  {{ end }}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ block "main" . }}{{ end }}
+    </div>
+  </main>
+
+  {{ block "footer" . }}
+    <footer class="site-footer">
+      <div class="wrapper">
+        <div class="footer-col-wrapper">
+          <div class="footer-col footer-col-1">
+            <p>&copy; 2018 {{ .Site.Title }}</p>
+          </div>
+          <div class="footer-col footer-col-2">
+          </div>
+          <div class="footer-col footer-col-3">
+          </div>
+        </div>
+      </div>
+    </footer>
+  {{ end }}
+</body>
+
+</html>
