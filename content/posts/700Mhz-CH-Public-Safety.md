@@ -7,6 +7,50 @@ images:
 draft: true
 ---
 
+- Digitalisierung - Gefahren - Public Safety
+  - Verletzlichkeit unserer Gesellschaft
+- Drahtlose Breitbandkommunikation für Armee und BORS
+  - Nutzen, Bedeutung, Verwendung kommerz. Provider + Gefahren
+  - Vorteile von COTS Ökosystem (LTE, 5G)
+- Lösungsansätze für mobile Sicherheitskommunikation
+  - GOGO, COCO, MNO
+  - 5G (spektrale Effizienz vs zusätzl. Spektrum, network slicing, cloud-core)
+  - Schweiz: SDVN / Fhr N CH, MSK, TK A, blunet, Swisscom Public Safety LTE
+- Vergabe 700 MHz Band
+  - digitale Dividende
+  - Entscheid BAKOM: ECC 218 Option B
+    - Abstimmung BABS, FUB, BAKOM (?)
+  - Interessen Provider
+  - 5G Hype
+    - 4K TV auf Smartphone
+    - IOT -> low BW
+  - Ausland
+    - USA, CAN, Korea: 20 MHz
+    - Modell "Frankreich"
+- Wie weiter?
+  - MSK, band 68
+  - TK A?
+
+
+
+
+- 700 MHz Spektrum - Historie + Ausblick (5G ...)
+ - digitale Dividende
+ - europ. Harmonisierung 700 MHz (LTE Band 28 (from Asia-Pacific) - future: whole Europe)
+- Europäische Pläne - ECC 218 Optionen A/B/C...
+- Vergabe-Pläne BAKOM
+ - Zeitplan, Auktion (Sunrise vs Swisscom)
+ - "Option B" versus COTS Geräte (inkl FRA)
+- Interessenskonflikt Kommerz vs Sicherheit
+ - Stellungsnahmen
+ - Bsp USA (+ EU Staaten)
+  - (USA FirstNet: LTE Band 14, 2 x 10 MHz)
+  - public-private partnership: $6.5 Mia + Band 14 use
+ - 5G (Bedarf Daten, spektrale Effizienz vs zusätzl. Spektrum)
+
+- 5G Network-Slicing -> BORS
+- 5G --> cloud-core --> less resilience!
+
 Anfang 2019 versteigert das [BAKOM][bakom] [^1] zusätzliche Frequenzen für den Ausbau der Mobilfunknetze in der Schweiz. Getrieben durch das weltweite Wettrennen zur Einführung der nächsten Mobilfunkgeneration 5G, wird dabei auch das 700-Megahertz-Band an kommerzielle Mobilfunkanbieter vergeben. Dieses Frequenzband wurde erst kürzlich durch die Migration von DVB-T-Sendern (für das digitale terrestrische Fernsehen) freigegeben, und ist wegen seiner guten Ausbreitungscharakteristik sehr wertvoll. Die Blaulichtorganisationen und die Armee gehen bei der Vergabe des 700-Megahertz-Bandes leer aus, obwohl der Bedarf an mobiler Sicherheitskommunikation gross wäre. Macht eine solche Güterabwägung Sinn, obschon unsere Gesellschaft durch die Digitalisierung zunehmend verletzlicher wird?
 
 
@@ -53,47 +97,3 @@ Drahtlose Breitbandkommunikation ermöglicht den BORS und Armeekräften mit Hilf
 [comcom]: https://www.comcom.admin.ch/
 
 [SVU14]: https://www.svs.admin.ch/content/svs-internet/de/dokumentation/_jcr_content/contentPar/downloadlist/downloadItems/8_1498206535013.download/Internet_SVS_Schlussbericht_SVU_14_de_140416.pdf
-
-- Digitalisierung - Gefahren - Public Safety
-  - Verletzlichkeit unserer Gesellschaft
-- Drahtlose Breitbandkommunikation für Armee und BORS
-  - Nutzen, Bedeutung, Verwendung kommerz. Provider + Gefahren
-  - Vorteile von COTS Ökosystem (LTE, 5G)
-- Lösungsansätze für mobile Sicherheitskommunikation
-  - GOGO, COCO, MNO
-  - 5G (spektrale Effizienz vs zusätzl. Spektrum, network slicing, cloud-core)
-  - Schweiz: SDVN / Fhr N CH, MSK, TK A, blunet, Swisscom Public Safety LTE
-- Vergabe 700 MHz Band
-  - digitale Dividende
-  - Entscheid BAKOM: ECC 218 Option B
-    - Abstimmung BABS, FUB, BAKOM (?)
-  - Interessen Provider
-  - 5G Hype
-    - 4K TV auf Smartphone
-    - IOT -> low BW
-  - Ausland
-    - USA, CAN, Korea: 20 MHz
-    - Modell "Frankreich"
-- Wie weiter?
-  - MSK, band 68
-  - TK A?
-
-
-
-
-- 700 MHz Spektrum - Historie + Ausblick (5G ...)
- - digitale Dividende
- - europ. Harmonisierung 700 MHz (LTE Band 28 (from Asia-Pacific) - future: whole Europe)
-- Europäische Pläne - ECC 218 Optionen A/B/C...
-- Vergabe-Pläne BAKOM
- - Zeitplan, Auktion (Sunrise vs Swisscom)
- - "Option B" versus COTS Geräte (inkl FRA)
-- Interessenskonflikt Kommerz vs Sicherheit
- - Stellungsnahmen
- - Bsp USA (+ EU Staaten)
-  - (USA FirstNet: LTE Band 14, 2 x 10 MHz)
-  - public-private partnership: $6.5 Mia + Band 14 use
- - 5G (Bedarf Daten, spektrale Effizienz vs zusätzl. Spektrum)
-
-- 5G Network-Slicing -> BORS
-- 5G --> cloud-core --> less resilience!

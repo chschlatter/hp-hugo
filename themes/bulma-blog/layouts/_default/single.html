@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+    {{if .Draft}}
+      <div class="blockquote" style="background: yellow;">DRAFT</div>
+    {{end}}
+    <header class="post-header">
+      <h1 class="title" itemprop="name headline">{{ htmlEscape .Title }}</h1>
+      <p class="subtitle is-6">
+        <time>{{ .PublishDate.Format "January 2006" }}</time>
+      </p>
+    </header>
+
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+  </article>
+{{ end }}

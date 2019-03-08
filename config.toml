@@ -2,6 +2,9 @@ baseURL = "https://www.schlatter.net/"
 languageCode = "en-us"
 title = "schlatter.net"
 
+theme = "bootstrap"
+
+enableGitInfo = true
 
 [blackfriday]
   hrefTargetBlank = true
