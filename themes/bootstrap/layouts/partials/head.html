@@ -1,13 +1,14 @@
-  <head>
-    <!-- Required meta tags -->
+  <head prefix="og: http://ogp.me/ns#">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ "./css/bootstrap.min.css" | relURL }}">
+    <title>{{ .Page.Title }}</title>
+    <meta name="description" content="{{ .Page.Description }}">
+    {{ template "_internal/opengraph.html" . }}
 
-    <title>{{ .Site.Title }}</title>
-    <meta name="description" content="">
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relURL }}">
+
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <meta name="author" content="{{ .Site.Params.author }}">
