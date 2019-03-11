@@ -13,6 +13,9 @@
     </header>
 
     <div class="post-content e-content" itemprop="articleBody">
+      {{ if .Params.lead }}
+        <p class="lead">{{ .Params.lead | markdownify }}</p>
+      {{ end }}
       {{ .Content }}
     </div>
 

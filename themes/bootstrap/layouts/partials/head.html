@@ -4,12 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>{{ .Page.Title }}</title>
-    <meta name="description" content="{{ .Page.Description }}">
+    <meta name="description" content="{{ htmlEscape .Page.Description }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
     {{ template "_internal/opengraph.html" . }}
 
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relURL }}">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
-    <meta name="author" content="{{ .Site.Params.author }}">
+    <!-- aplly <blockquote class="blockquote"> to normal <blockquote> -->
+    <style>
+      blockquote {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+      }
+    </style>
   </head>

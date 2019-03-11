@@ -2,7 +2,7 @@ baseURL = "https://www.schlatter.net/"
 languageCode = "en-us"
 title = "schlatter.net"
 
-theme = "bootstrap"
+theme = "om"
 
 enableGitInfo = true
 
