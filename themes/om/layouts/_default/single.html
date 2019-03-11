@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article class="content" itemscope itemtype="http://schema.org/BlogPosting" border-bottom>
+    {{if .Draft}}
+      <div class="blockquote" style="background: yellow;">DRAFT</div>
+    {{end}}
+    <header>
+      <h3 class="mb-4" itemprop="name headline">
+        {{ htmlEscape .Title }}
+        <small class="text-muted">
+          <time>{{ .PublishDate.Format "January 2006" }}</time>
+        </small>
+      </h3>
+    </header>
+
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ if .Params.lead }}
+        <p class="lead">{{ .Params.lead | markdownify }}</p>
+      {{ end }}
+      {{ .Content }}
+    </div>
+
+  </article>
+{{ end }}

@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+    {{ range .Pages }}
+      <div class="border-bottom">
+        <h3>{{ .Title }}</h3>
+        {{ if .Params.images }}
+        <a href="{{ .RelPermalink }}">
+          <img class="img-fluid pt-3 pb-3" src="{{ index .Params.images 0 }}">
+        </a>
+        {{ end }}
+        <p class="lead">{{ .Params.lead | markdownify }}</p>
+        <p class="lead"><a href="{{ .RelPermalink }}">Continue reading &hellip;</a></p>
+      </div>
+    {{ end }}
+
+
+{{ end }}
