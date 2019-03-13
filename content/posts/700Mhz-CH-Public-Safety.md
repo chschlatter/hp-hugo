@@ -3,7 +3,6 @@ title: Die Vergabe des 700-Megahertz-Bandes - eine verpasste Chance für die öf
 date: 2018-11-15
 description: tbd
 images:
-- /media/tbd
 draft: true
 ---
 
